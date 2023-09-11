@@ -35,7 +35,7 @@ if (user_word[4] == user_guess):
     total_instance += 1
 
 if (total_instance == 0):   # If the letter occures 0 times this will be printed 
-    print("No instances of "+ user_guess + " found in " + user_word)
+    print("No instances of " + user_guess + " found in " + user_word)
 if (total_instance == 1):  # Print to user the number of instances if it is 1 
     print(str(total_instance) + " instance of " + user_guess + " found in " + user_word)
 if (total_instance > 1):   # Print to user the number of instances the letter occur in the word 
